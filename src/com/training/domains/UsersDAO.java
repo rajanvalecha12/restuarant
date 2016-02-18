@@ -45,7 +45,7 @@ public class UsersDAO implements DAO<User> {
 
 		return rowAdded;
 	}
- @override
+ /*@override
 public int add()
 {
 	 String sql2 = "insert into ordertempdetails values(?,?,?,?)";
@@ -69,7 +69,7 @@ public int add()
 		}
 
 		return rowAdded;
-}
+}*/
 	@Override
 	public User find(int key) {
 
